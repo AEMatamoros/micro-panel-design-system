@@ -47,7 +47,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 640 512"
-                                className="absolute right-3 top-2/4 -translate-y-2/4 cursor-pointer fill-primary hover:fill-primary-500"
+                                className="absolute right-3 top-2/4 h-6 w-6 -translate-y-2/4 cursor-pointer fill-primary hover:fill-primary-500"
                                 onClick={() => {
                                     setShowText(false);
                                 }}
@@ -58,7 +58,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 576 512"
-                                className="absolute right-3 top-2/4 -translate-y-2/4 transform cursor-pointer fill-primary hover:fill-primary-500"
+                                className="absolute right-3 top-2/4 h-6 w-6 -translate-y-2/4 transform cursor-pointer fill-primary hover:fill-primary-500"
                                 onClick={() => {
                                     setShowText(true);
                                 }}
