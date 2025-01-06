@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "module": "ESNext",
+        "target": "ESNext",
+        "lib": ["ES2023", "DOM"],
+        "skipLibCheck": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+
+        "declarationMap": true,
+        "emitDeclarationOnly": true,
+        /* Bundler mode */
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": ["@testing-library/jest-dom"]
+    },
+    "include": [
+        "vite.config.ts",
+        "src",
+        "src/vite-env.d.ts",
+        "jest.setup.js",
+        "src/**/*"
+    ],
+    "exclude": ["node_modules", "dist"]
+}
